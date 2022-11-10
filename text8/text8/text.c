@@ -88,23 +88,17 @@
 //	return 0;
 //}
 
-//int main()
-//{
-//	int i = 0, n = 0, sum = 0;
-//	for (i = 1; i <= 9; i++)
-//	{
-//		for (n = 1; n <= i; n++)
-//		{
-//				sum = n * i;
-//				printf("%d*%d=%-2d ", i, n, sum);
-//		}
-//		printf("\n");
-//	}
-//	return 0;
-//}
-
 int main()
 {
-
+	int i = 0, n = 0, sum = 0;
+	for (i = 1; i <= 9; i++)
+	{
+		for (n = 1; n <= i; n++)
+		{
+				sum = n * i;
+				printf("%d*%d=%-2d ", i, n, sum);
+		}
+		printf("\n");
+	}
 	return 0;
 }
