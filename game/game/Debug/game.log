@@ -1,0 +1,12 @@
+﻿  game.c
+D:\c语言学习程序\game\game\game.c(125,1): warning C4142: "Iswin": 类型的良性重定义
+D:\c语言学习程序\game\game\game.h(16): message : 参见“Iswin”的声明
+D:\c语言学习程序\game\game\game.c(132,22): warning C4098: “Iswin”:“void”函数返回值
+D:\c语言学习程序\game\game\game.c(141,22): warning C4098: “Iswin”:“void”函数返回值
+D:\c语言学习程序\game\game\game.c(147,21): warning C4098: “Iswin”:“void”函数返回值
+D:\c语言学习程序\game\game\game.c(151,21): warning C4098: “Iswin”:“void”函数返回值
+D:\c语言学习程序\game\game\game.c(156,13): warning C4098: “Iswin”:“void”函数返回值
+D:\c语言学习程序\game\game\game.c(158,12): warning C4098: “Iswin”:“void”函数返回值
+  test.c
+  正在生成代码...
+  game.vcxproj -> D:\c语言学习程序\game\Debug\game.exe
