@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include "game.h"
+#include<time.h>
+#include<stdlib.h>
 //写代码，边写边测试逻辑有无问题。
 void menu()
 {
@@ -17,15 +19,21 @@ void game()
 	//2.排查出的雷的信息
 	char show[Rows][Cols] = { 0 };
 	//初始化
-	Initboard(mine, Rows, Cols,'0');
-	Initboard(show, Rows, Cols,'*');
+	Initboard(mine, Rows, Cols, '0');
+	Initboard(show, Rows, Cols, '*');
 	//打印棋盘
-	Displayboard(mine, Row, Col);
+	//Displayboard(mine, Row, Col);
 	Displayboard(show, Row, Col);
+	//布置雷
+	Setmine(mine, Row, Col);
+	Displayboard(mine, Row, Col);
+	//扫雷
+	Findmine(mine, show, Row, Col);
 }
 void test()
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
