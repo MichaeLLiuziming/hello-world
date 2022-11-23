@@ -1,0 +1,2 @@
+﻿test.obj : error LNK2005: _DisplayBoard 已经在 game.obj 中定义
+D:\c语言学习程序\text16\Debug\text16.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
